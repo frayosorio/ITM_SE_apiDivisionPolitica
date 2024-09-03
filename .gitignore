@@ -1,0 +1,21 @@
+# Dependencias instaladas por npm
+/node_modules
+
+# Dependencias instaladas por yarn
+/yarn.lock
+
+# Archivos de configuración
+.env
+
+# Archivos generados durante el desarrollo
+.DS_Store
+*.log
+npm-debug.log*
+
+# Carpetas generadas durante el desarrollo
+/tmp
+/public/uploads
+
+# Carpetas de archivos compilados o generados
+/dist
+/build
