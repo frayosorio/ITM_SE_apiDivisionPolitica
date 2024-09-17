@@ -1,7 +1,7 @@
 module.exports = {
     SERVIDOR: 'localhost',
     PUERTO: '27017',
-    BASEDATOS: 'divisionpolitica',
+    BASEDATOS: 'divisionPolitica',
     USUARIO: '',
     CLAVE: ''
 }
