@@ -81,7 +81,7 @@ PaisRepositorio.eliminar = async (idPais, respuesta) => {
         //***** codigo MONGO para eliminar un Documento Pais
         await basedatos.collection('paises')
             .deleteOne(
-                { id: eval(idPais) });
+                { id: parseInt(idPais) });
         //***** 
         respuesta(null, true);
     } catch (error) {
